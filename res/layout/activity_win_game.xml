@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@android:color/holo_orange_light"
+     >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/win"
+        android:layout_marginTop="100dp"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center_horizontal"
+        
+         />
+
+    <ImageButton
+        android:id="@+id/home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/button_home"
+        android:layout_margin="10dp"
+        
+         />
+
+</LinearLayout>

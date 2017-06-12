@@ -1,0 +1,213 @@
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/llTicTacToe"
+    android:orientation="vertical"
+    android:background="@android:color/holo_red_light"
+    >
+
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+    <ImageView
+        android:src="@drawable/sound_old"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="23dp"
+        android:layout_marginLeft="100dp"
+         />
+
+    <TextView
+        android:id="@+id/timerMachine"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:padding="5dp"
+        android:textSize="40sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        
+        
+         />
+
+    </LinearLayout>
+    
+    
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        
+        >
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            >
+
+            <Button
+                style="?android:attr/buttonBarStyle"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:id="@+id/but1"
+                android:layout_margin="10dp"
+                android:background="@drawable/custom_button"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:padding="5dp"
+                android:textSize="40sp"
+
+
+                
+                />
+
+            <Button
+                style="?android:attr/buttonBarStyle"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:id="@+id/but2"
+                android:layout_margin="10dp"
+                android:background="@drawable/custom_button"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:padding="5dp"
+                android:textSize="40sp"
+                
+                
+                
+                />
+
+            <Button
+                style="?android:attr/buttonBarStyle"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:id="@+id/but3"
+                android:layout_margin="10dp"
+                android:background="@drawable/custom_button"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:padding="5dp"
+                android:textSize="40sp"
+                
+                
+                
+                />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            >
+
+            <Button
+                style="?android:attr/buttonBarStyle"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:id="@+id/but4"
+                android:layout_margin="10dp"
+                android:background="@drawable/custom_button"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:padding="5dp"
+                android:textSize="40sp"
+                
+                />
+
+            <Button
+                style="?android:attr/buttonBarStyle"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:id="@+id/but5"
+                android:layout_margin="10dp"
+                android:background="@drawable/custom_button"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:padding="5dp"
+                android:textSize="40sp"
+                
+
+                />
+
+            <Button
+                style="?android:attr/buttonBarStyle"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:id="@+id/but6"
+                android:layout_margin="10dp"
+                android:background="@drawable/custom_button"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:padding="5dp"
+                android:textSize="40sp"
+                
+
+                />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            >
+
+            <Button
+                style="?android:attr/buttonBarStyle"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:id="@+id/but7"
+                android:layout_margin="10dp"
+                android:background="@drawable/custom_button"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:padding="5dp"
+                android:textSize="40sp"
+                
+
+                />
+
+            <Button
+                style="?android:attr/buttonBarStyle"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:id="@+id/but8"
+                android:layout_margin="10dp"
+                android:background="@drawable/custom_button"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:padding="5dp"
+                android:textSize="40sp"
+                
+
+                />
+
+            <Button
+                style="?android:attr/buttonBarStyle"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:id="@+id/but9"
+                android:layout_margin="10dp"
+                android:background="@drawable/custom_button"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:padding="5dp"
+                android:textSize="40sp"
+                
+
+                />
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>
